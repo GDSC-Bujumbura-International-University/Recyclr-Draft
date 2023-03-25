@@ -1,4 +1,4 @@
-# wasCYCLE
+# Recyclr
 This is a project by a team from Google Developer Student Club at Bujumbura International University. The project is about a mobile application focused on helping sorting out recyclable waste in order to protect the environment.
 
 ## Core Team Members
