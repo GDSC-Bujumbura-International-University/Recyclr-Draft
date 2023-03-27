@@ -11,4 +11,5 @@
     <color name="gray_color">#EDEDED</color>
     <color name="red_color">#EA5B5E</color>
     <color name="green_color">#89BC84</color>
+    <color name="gray_icon">#747474</color>
 </resources>

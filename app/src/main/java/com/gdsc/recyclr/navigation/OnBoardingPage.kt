@@ -25,7 +25,7 @@ sealed class OnBoardingPage(
 
     object Third : OnBoardingPage(
         image = R.drawable.splash_image_3,
-        title = "Earn and plan a tree",
+        title = "Earn and plant a tree",
         description = "Scanning helps you understand what can be recycle at home and what can't."
     )
 
