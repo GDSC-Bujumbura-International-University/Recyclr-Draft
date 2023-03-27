@@ -5,10 +5,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.gdsc.recyclr.navigation.BottomBarPage
-import com.gdsc.recyclr.screens.HomeScreen
-import com.gdsc.recyclr.screens.ProfileScreen
-import com.gdsc.recyclr.screens.ScanScreen
-import com.gdsc.recyclr.screens.ShopScreen
+import com.gdsc.recyclr.screens.home.HomeScreen
+import com.gdsc.recyclr.screens.profile.ProfileScreen
+import com.gdsc.recyclr.screens.scan.ScanScreen
+import com.gdsc.recyclr.screens.shop.ShopScreen
 
 @Composable
 fun BottomNavGraph(navController: NavHostController){

@@ -1,4 +1,4 @@
-package com.gdsc.recyclr.screens
+package com.gdsc.recyclr.screens.dashboard
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.*

@@ -1,4 +1,4 @@
-package com.gdsc.recyclr.screens
+package com.gdsc.recyclr.screens.profile
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,18 +9,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun ScanScreen() {
+fun ProfileScreen(
+) {
     Box(
         modifier = Modifier
             .fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        Text(text = "ScanScreen")
+        Text(text = "ProfileScreen")
     }
 }
 
-@Preview(name = "ScanScreen")
+@Preview(name = "ProfileScreen")
 @Composable
-private fun PreviewScanScreen() {
-    ScanScreen()
+private fun PreviewProfileScreen() {
+    ProfileScreen()
 }

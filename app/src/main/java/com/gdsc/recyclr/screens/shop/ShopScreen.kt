@@ -1,4 +1,4 @@
-package com.gdsc.form.screens
+package com.gdsc.recyclr.screens.shop
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,18 +9,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun WelcomeScreen() {
+fun ShopScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        Text(text = "WelcomeScreen")
+        Text(text = "ShopScreen")
     }
 }
 
-@Preview(name = "WelcomeScreen")
+@Preview(name = "ShopScreen")
 @Composable
-private fun PreviewWelcomeScreen() {
-    WelcomeScreen()
+private fun PreviewShopScreen() {
+    ShopScreen()
 }
