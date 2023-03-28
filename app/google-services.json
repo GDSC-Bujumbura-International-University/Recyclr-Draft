@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "909025540028",
+    "project_id": "recyclr-310ab",
+    "storage_bucket": "recyclr-310ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909025540028:android:72f6a8b2aa24a56cb51db9",
+        "android_client_info": {
+          "package_name": "com.gdsc.recyclr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909025540028-o8ipskr28igdpve77m7j4h7fjqpdm7h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gdsc.recyclr",
+            "certificate_hash": "47481db6204a12c2fac413969e06569ec75026de"
+          }
+        },
+        {
+          "client_id": "909025540028-u3ntnk9canpo5gm2kmrkjqicn5a0l7u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu0CkqsbepIs_tqC4tJC3CDCgWsZ2Gj4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909025540028-u3ntnk9canpo5gm2kmrkjqicn5a0l7u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,4 @@
-
-package com.gdsc.recyclr.components
+package com.gdsc.recyclr.components.composable
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.interaction.MutableInteractionSource

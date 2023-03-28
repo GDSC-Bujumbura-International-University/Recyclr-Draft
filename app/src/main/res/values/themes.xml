@@ -4,4 +4,10 @@
     <style name="Theme.Recyclr" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/purple_700</item>
     </style>
+    <style name="Theme.SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/gradiant_green</item>
+        <item name="windowSplashScreenAnimatedIcon">@color/white</item>
+        <item name="windowSplashScreenAnimationDuration">600</item>
+        <item name="postSplashScreenTheme">@style/Theme.Recyclr</item>
+    </style>
 </resources>

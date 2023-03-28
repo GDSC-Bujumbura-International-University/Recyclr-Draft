@@ -30,9 +30,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.gdsc.recyclr.R
-import com.gdsc.recyclr.components.ButtonAuth
-import com.gdsc.recyclr.components.ButtonComponent
-import com.gdsc.recyclr.components.InputText
+import com.gdsc.recyclr.components.composable.ButtonAuth
+import com.gdsc.recyclr.components.composable.ButtonComponent
+import com.gdsc.recyclr.components.composable.InputText
 import com.gdsc.recyclr.navigation.AuthPage
 import com.gdsc.recyclr.navigation.BottomBarPage
 

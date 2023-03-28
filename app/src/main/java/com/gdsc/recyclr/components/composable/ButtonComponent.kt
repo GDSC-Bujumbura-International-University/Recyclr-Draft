@@ -1,6 +1,6 @@
 @file:Suppress("UNUSED_EXPRESSION")
 
-package com.gdsc.recyclr.components
+package com.gdsc.recyclr.components.composable
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape

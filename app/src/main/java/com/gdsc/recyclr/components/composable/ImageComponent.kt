@@ -1,4 +1,4 @@
-package com.gdsc.recyclr.components
+package com.gdsc.recyclr.components.composable
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">Recyclr</string>
+
+    <!-- LoginScreen -->
+    <string name="sign_in">Sign in</string>
+    <string name="login_details">Authentication</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_up">Do not you have an account?</string>
+
+    <string name="recovery_email_sent">Check your inbox for the recovery email.</string>
+    <string name="empty_password_error">Password cannot be empty.</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Confirm_password">Confirm password</string>
+    <string name="generic_error">Something wrong happened. Please try again.</string>
+    <string name="email_error">Please insert a valid email.</string>
+
+    <!-- SignUpScreen -->
+    <string name="user_name">Full name</string>
+    <string name="create_account">Create account</string>
+    <string name="sign_in_with_text">Already have an account?</string>
+    <string name="password_error">Your password should have at least six digits and include one digit, one lower case letter and one upper case letter.</string>
+    <string name="password_match_error">Passwords do not match.</string>
+
+    <!-- ProfileScreen -->
+    <string name="sign_out">Sign out</string>
+
+    <!-- HomeScreen -->
+
+    <!-- ScanScreen -->
+
+    <!-- ShopScreen -->
+
+    <!-- OnBoardingScreen -->
+    <string name="title_1">Let\'s start protecting our environment</string>
+    <string name="title_2">Scan the waste</string>
+    <string name="title_3">Earn and plan a tree</string>
+    <string name="description">Scanning helps you understand what can be recycle at home and what can\'t.
+
+</string>
+    <string name="content_description">image</string>
+
+
+
+
 </resources>

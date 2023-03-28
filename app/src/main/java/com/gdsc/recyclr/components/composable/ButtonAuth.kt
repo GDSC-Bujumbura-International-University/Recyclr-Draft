@@ -1,6 +1,6 @@
 @file:Suppress("NAME_SHADOWING")
 
-package com.gdsc.recyclr.components
+package com.gdsc.recyclr.components.composable
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.gdsc.recyclr.R
 import com.gdsc.recyclr.ui.theme.Shapes
 
 
@@ -71,7 +72,7 @@ fun ButtonAuth(
 @Preview
 private fun GoogleButtonPreview() {
     ButtonAuth(
-        icon = com.gdsc.recyclr.R.drawable.ic_google_icon,
+        icon = R.drawable.ic_google_icon,
         contentDescription = "Google Button",
         onClicked = {}
     )

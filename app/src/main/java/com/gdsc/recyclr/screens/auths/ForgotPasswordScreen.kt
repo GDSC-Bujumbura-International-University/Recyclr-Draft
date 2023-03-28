@@ -18,8 +18,8 @@ import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.gdsc.recyclr.components.ButtonComponent
-import com.gdsc.recyclr.components.InputText
+import com.gdsc.recyclr.components.composable.ButtonComponent
+import com.gdsc.recyclr.components.composable.InputText
 
 @Composable
 fun ForgotPasswordScreen() {
