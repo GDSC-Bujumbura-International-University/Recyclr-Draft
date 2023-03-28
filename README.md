@@ -45,6 +45,8 @@ Technologies and Programming Languages: The Recyclr app is developed using the f
 [Screenshot1]
 5. Collection Points Screen - This screen displays a map view of the user's location and collection points for recycled items in the nearby area. The collection points are marked with pins on the map, and the user can tap a pin to view more information about the collection point, such as the types of items that can be dropped off and the pickup schedule.
 [Screenshot1]
+6. Profile Screen - This screen displays the user's personal information such as profile picture, name, points gained by submitting more waste, their address. And through the profile screen users can exchange their points to coins in order to redeem some eco-friendly tools such as bags,... .
+[Screenshot1]
 
 ### How to run the app
 1. Install Android Studio: Before running the app, you need to install Android Studio on your computer. You can download it from the official website: https://developer.android.com/studio
