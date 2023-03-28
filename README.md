@@ -2,7 +2,7 @@
 [](https://img.shields.io/twitter/follow/gdscbiu)
 This is a project by a team from Google Developer Student Club at Bujumbura International University. The project is about a mobile application focused on helping sorting out recyclable waste in order to protect the environment.
 ## Project Setup:
-The Recyclr mobile app is designed to encourage and incentivize users to recycle their plastic bottles, furniture, and paper at home by scanning these items using their smartphones. Users earn points for each item they recycle, which can be redeemed in the app for waste collection tools, children's books, or tree planting. The app is built using Flutter for both iOS and Android, Firebase for the database, and Google Cloud Maps API for location tracking.
+The Recyclr mobile app is designed to encourage and incentivize users to recycle their plastic bottles, furniture, and paper at home by scanning these items using their smartphones. Users earn points for each item they recycle, which can be redeemed in the app for waste collection tools, children's books, or tree planting. The app is built using Kotlin for Android, Firebase for the database, and Google Cloud Maps API for location tracking.
 
 ### Problem Statement:
 The Recyclr mobile app aims to address the issue of increasing plastic waste in the environment by encouraging users to recycle plastic bottles, furniture, and paper at home. The app also aims to educate users on what can and cannot be recycled at home, promoting sustainable waste management practices.
@@ -16,20 +16,24 @@ The Recyclr mobile app aligns with the following United Nations Sustainable Deve
 - Target 13.3: Improve education, awareness-raising, and human and institutional capacity on climate change mitigation, adaptation, impact reduction, and early warning.
 
 ## Implementation:
-The Recyclr mobile app is built using a client-server architecture. The client is developed using Flutter, which provides a cross-platform development framework for both iOS and Android devices. The server-side application is built using Firebase, which provides a scalable and flexible backend solution for storing and retrieving data.
+The Recyclr mobile app is built using a client-server architecture. The client is developed using Kotlin, which provides a development framework for Android devices. The server-side application is built using Firebase, which provides a scalable and flexible backend solution for storing and retrieving data.
 
 The high-level components of the architecture are:
 
-- Frontend: The frontend of the Recyclr app is developed using Flutter. The frontend is responsible for handling user interactions, displaying data, and providing a user-friendly interface for the app.
+- Frontend: The frontend of the Recyclr app is developed using Jetpack Compose. The frontend is responsible for handling user interactions, displaying data, and providing a user-friendly interface for the app.
 
 - Backend: The backend of the Recyclr app is developed using Firebase. The backend is responsible for storing and retrieving user data, managing user accounts, and sending notifications to users.
 
 Technologies and Programming Languages: The Recyclr app is developed using the following technologies and programming languages:
 
-- Flutter: A cross-platform mobile app development framework.
-- Firebase: A scalable and flexible backend solution for mobile and web applications.
-- Google Cloud Maps API: A location-based service for tracking user location.
-- Dart: A programming language used for developing Flutter applications.
+- Kotlin - a modern programming language used to write the Android app.
+- Jetpack Compose - a modern toolkit for building native Android UI using Kotlin.
+- Firebase Authentication - a service used to handle user authentication and sign-in with email or Google account.
+- Cloud Firestore - a NoSQL document database used to store and sync app data in real-time.
+- Google Maps Android API - a service used to display maps and location data in the app.
+- Android SDK - a software development kit used to develop Android applications.
+- Gradle - a build automation tool used to build, test, and deploy the app.
+- GitHub - a version control system used to store, manage, and share the app code.
 ### Screens
 1. Welcome Screen - This screen displays the Recyclr logo and a message welcoming the user to the app. There are two buttons on this screen, one for signing in with Google and another for signing in with email.
 [Screenshot1]
@@ -43,16 +47,21 @@ Technologies and Programming Languages: The Recyclr app is developed using the f
 [Screenshot1]
 
 ### How to run the app
-1. Install Flutter and Dart SDKs on your computer by following the instructions in the [Flutter documentation](https://docs.flutter.dev/get-started/install).
-2. Clone the Recyclr repository from GitHub to your local machine by running the command git clone https://github.com/GDSC-Bujumbura-International-University/Recyclr.git in a terminal or command prompt window.
-3. Open Android Studio and click on `Open an existing Android Studio project`.
-4. Navigate to the `Recyclr` project directory and select the android folder.
-5. Once the Gradle build finishes, open a terminal or command prompt window in the project directory and run the command `flutter pub get` to install all dependencies.
-6. Create a Firebase project and enable Firebase Authentication and Cloud Firestore. Copy the [Firebase configuration details](https://support.google.com/firebase/answer/7015592?hl=en#zippy=%2Cin-this-article) and paste them in the `android/app/google-services.json` and `ios/Runner/GoogleService-Info.plist` files respectively. For this app, you will need to update the package name in Firebase to `com.example.recyclr`.
-7. Create a Google Cloud project and enable Google Maps JavaScript API. Generate an API key and replace the placeholder in `lib/screens/map_screen.dart` with your key.
-8. Connect your Android device to your computer via USB and enable USB debugging in Developer options. Alternatively, you can use an emulator.
-9. Run the app on your device by clicking the green play button in Android Studio, selecting your device or emulator, and clicking OK. The app should start running on your device.
-10. To test the app's functionality, you can create test users with Firebase Authentication and try out the various features such as scanning items, redeeming rewards, and viewing collection points on the map.
+1. Install Android Studio: Before running the app, you need to install Android Studio on your computer. You can download it from the official website: https://developer.android.com/studio
+
+2. Clone the project from GitHub: Once you have installed Android Studio, you can clone the project from GitHub. Open Android Studio and select `Check out project from Version Control` from the welcome screen. Then, select `Git` from the dropdown menu and enter the URL of the Recyclr app GitHub repository: https://github.com/GDSC-Bujumbura-International-University/recyclr.git
+
+3. Open the project in Android Studio: After cloning the project, Android Studio will ask you to open it. Click on `Yes` to open the project in Android Studio.
+
+4. Sync Gradle: Once the project is open in Android Studio, you need to sync Gradle. This will download all the dependencies required by the app. To do this, go to `File` -> `Sync Project with Gradle Files`.
+
+5. Set up Firebase: The Recyclr app uses Firebase services for authentication and database management. You will need to set up a Firebase project and add the configuration files to the app. You can follow the instructions in the Firebase documentation to set up a project and add the configuration files: https://firebase.google.com/docs/android/setup
+
+6. Run the app: Once you have set up Firebase, you can run the app on an emulator or a physical device. To do this, click on the `Run` button in Android Studio, select the device you want to run the app on, and click on `OK`. Android Studio will build and install the app on the selected device.
+
+7. Test the app: Once the app is installed on the device, you can test its features. You can scan plastic bottles, furniture, and paper using the camera, and earn points that can be redeemed in the store. You can also log in using Google Auth or sign in by email.
+
+Note: This is a high-level guide, and the steps may vary depending on the version of Android Studio you are using and the configuration of your development environment. For more detailed information on running an app in Android Studio, you can refer to the official Android Studio documentation: https://developer.android.com/studio/run
 
 ### Feedback / Testing / Iteration:
 To test the Recyclr app, we conducted user testing with real users outside of our team. Based on their feedback, we implemented the following improvements to the app:
