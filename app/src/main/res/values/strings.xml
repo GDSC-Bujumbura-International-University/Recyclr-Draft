@@ -32,6 +32,7 @@
     <!-- ScanScreen -->
 
     <!-- ShopScreen -->
+    <string name="redeem">Redeem</string>
 
     <!-- OnBoardingScreen -->
     <string name="title_1">Let\'s start protecting our environment</string>
