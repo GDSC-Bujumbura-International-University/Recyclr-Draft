@@ -1,6 +1,6 @@
 # Recyclr
 [](https://img.shields.io/twitter/follow/gdscbiu)
-This is a project by a team from Google Developer Student Club at Bujumbura International University. The project is about a mobile application focused on helping sorting out recyclable waste in order to protect the environment.
+This is a project by a team from Google Developer Student Club at Bujumbura International University. The project is about a mobile application focused on helping sorting out recyclable waste in order to protect the environment using _Machine Learning_.
 ## Project Setup:
 The Recyclr mobile app is designed to encourage and incentivize users to recycle their plastic bottles, furniture, and paper at home by scanning these items using their smartphones. Users earn points for each item they recycle, which can be redeemed in the app for waste collection tools, children's books, or tree planting. The app is built using Kotlin for Android, Firebase for the database, and Google Cloud Maps API for location tracking.
 
