@@ -7,7 +7,6 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Button
-import androidx.compose.material.ButtonColors
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -25,14 +24,6 @@ import androidx.compose.ui.unit.sp
 import com.gdsc.recyclr.ui.theme.Gray_color
 import com.gdsc.recyclr.ui.theme.Green_color
 import com.gdsc.recyclr.ui.theme.RecyclrTheme
-import com.gdsc.recyclr.ui.theme.Typography
-import com.google.android.gms.maps.model.CameraPosition
-import com.google.android.gms.maps.model.LatLng
-import com.google.maps.android.compose.GoogleMap
-import com.google.maps.android.compose.Marker
-import com.google.maps.android.compose.MarkerState
-import com.google.maps.android.compose.rememberCameraPositionState
-
 @Composable
 fun ShopScreen() {
     Column(
@@ -67,7 +58,7 @@ fun ShopScreen() {
 
                     )
                     
-                    Row() {
+                    Row {
                         Text(
                             text = "150 coins",
                             fontSize = 12.sp,
@@ -114,7 +105,7 @@ fun ShopScreen() {
 
                     )
 
-                    Row() {
+                    Row {
                         Text(
                             text = "200 coins",
                             fontSize = 12.sp,
@@ -166,7 +157,7 @@ fun ShopScreen() {
 
                     )
 
-                    Row() {
+                    Row {
                         Text(
                             text = "70 coins",
                             fontSize = 12.sp,
@@ -213,7 +204,7 @@ fun ShopScreen() {
 
                     )
 
-                    Row() {
+                    Row {
                         Text(
                             text = "50 coins",
                             fontSize = 12.sp,
@@ -265,7 +256,7 @@ fun ShopScreen() {
 
                     )
 
-                    Row() {
+                    Row {
                         Text(
                             text = "150 coins",
                             fontSize = 12.sp,
@@ -312,7 +303,7 @@ fun ShopScreen() {
 
                     )
 
-                    Row() {
+                    Row {
                         Text(
                             text = "200 coins",
                             fontSize = 12.sp,

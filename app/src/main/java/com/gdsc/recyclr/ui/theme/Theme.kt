@@ -40,10 +40,10 @@ fun RecyclrTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composabl
 
     // Remember a SystemUiController
     val systemUiController = rememberSystemUiController()
-    val darkTheme = isSystemInDarkTheme()
+    val dark = isSystemInDarkTheme()
     SideEffect {
         systemUiController.setSystemBarsColor(
-            color = if (darkTheme) Color.LightGray else Color.LightGray
+            color = if (dark) Color.Black else Color.LightGray
         )
     }
 

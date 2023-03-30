@@ -1,27 +1,46 @@
 package com.gdsc.recyclr.screens.profile
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.Text
+import androidx.compose.material.Scaffold
+import androidx.compose.material.rememberScaffoldState
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.gdsc.recyclr.components.composable.TopBar
+import com.gdsc.recyclr.screens.profile.components.ProfileContent
+import com.gdsc.recyclr.screens.profile.components.RevokeAccess
 
 @Composable
 fun ProfileScreen(
+    viewModel: ProfileViewModel = hiltViewModel()
 ) {
-    Box(
-        modifier = Modifier
-            .fillMaxSize(),
-        contentAlignment = Alignment.Center
-    ) {
-        Text(text = "ProfileScreen")
-    }
-}
+    val scaffoldState = rememberScaffoldState()
+    val coroutineScope = rememberCoroutineScope()
 
-@Preview(name = "ProfileScreen")
-@Composable
-private fun PreviewProfileScreen() {
-    ProfileScreen()
+    Scaffold(
+        topBar = {
+            TopBar(
+                title = "Profile",
+                signOut = {
+                    viewModel.signOut()
+                },
+                revokeAccess = {
+                    viewModel.revokeAccess()
+                }
+            )
+        },
+        content = { padding ->
+            ProfileContent(
+                padding = padding
+            )
+        },
+        scaffoldState = scaffoldState
+    )
+
+    RevokeAccess(
+        scaffoldState = scaffoldState,
+        coroutineScope = coroutineScope,
+        signOut = {
+            viewModel.signOut()
+        }
+    )
 }
