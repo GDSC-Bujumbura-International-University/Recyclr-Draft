@@ -82,7 +82,7 @@ One challenge we faced while building the Recyclr app was integrating the Google
 ### Success and Completion of Solution:
 The Recyclr app has been successful in promoting sustainable waste management practices and educating users on what can and cannot be recycled at home. The app has been downloaded by over [WIP]
 
-## Core Team Members
+## Recyclr Team Members
 - [Alain Bruce Nishimwe](https://github.com/nishalbruce)
 - [Ibrahim Kwizera](https://github.com/ibrahim703042)
 - [Angelo Arnauld Nkurunziza](https://github.com/Nkurunziza2001)
