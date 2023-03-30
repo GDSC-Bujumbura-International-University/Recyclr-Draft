@@ -10,9 +10,11 @@ The Recyclr mobile app aims to address the issue of increasing plastic waste in 
 ### United Nations Sustainable Development Goals:
 The Recyclr mobile app aligns with the following United Nations Sustainable Development Goals:
 
-1. Goal 12: Responsible Consumption and Production
+1. Goal 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+- Target 11.6: By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.
+2. Goal 12: Responsible Consumption and Production
 - Target 12.5: By 2030, substantially reduce waste generation through prevention, reduction, recycling, and reuse.
-2. Goal 13: Climate Action
+3. Goal 13: Climate Action
 - Target 13.3: Improve education, awareness-raising, and human and institutional capacity on climate change mitigation, adaptation, impact reduction, and early warning.
 
 ## Implementation:
