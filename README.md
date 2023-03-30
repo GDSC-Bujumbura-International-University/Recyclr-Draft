@@ -38,16 +38,23 @@ Technologies and Programming Languages: The Recyclr app is developed using the f
 - GitHub - a version control system used to store, manage, and share the app code.
 ### Screens
 1. Welcome Screen - This screen displays the Recyclr logo and a message welcoming the user to the app. There are two buttons on this screen, one for signing in with Google and another for signing in with email.
-[Screenshot1]
+
+![Onborading screen](/screenshots/1.jpg "Onborading screen")
+
 2. Home Screen - This screen displays a list of items that the user can scan for recycling. The items include plastic bottles, furniture, and paper. Each item has a picture and a short description of what can be recycled. There is also a button for scanning an item and a button for viewing the user's rewards balance.
 [Screenshot1]
 3. Scan Screen - This screen displays a camera viewfinder that the user can use to scan an item. Once the item is scanned, the app uses machine learning to identify the item and provide information on whether it can be recycled or not. If the item can be recycled, the user earns rewards points that can be redeemed for items such as waste collection tools, children's books, or planting a tree.
 [Screenshot1]
 4. Rewards Screen - This screen displays the user's rewards balance and a list of items that can be redeemed with the rewards points. The user can select an item and redeem it by tapping a button. The screen also displays a history of the user's rewards redemptions.
-[Screenshot1]
+
+
+
 5. Collection Points Screen - This screen displays a map view of the user's location and collection points for recycled items in the nearby area. The collection points are marked with pins on the map, and the user can tap a pin to view more information about the collection point, such as the types of items that can be dropped off and the pickup schedule.
+
 [Screenshot1]
+
 6. Profile Screen - This screen displays the user's personal information such as profile picture, name, points gained by submitting more waste, their address. And through the profile screen users can exchange their points to coins in order to redeem some eco-friendly tools such as bags,... .
+
 [Screenshot1]
 
 ### How to run the app
