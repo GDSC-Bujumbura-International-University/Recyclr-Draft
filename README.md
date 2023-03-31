@@ -5,7 +5,7 @@ This is a project by a team from Google Developer Student Club at Bujumbura Inte
 The Recyclr mobile app is designed to encourage and incentivize users to recycle their plastic bottles, furniture, and paper at home by scanning these items using their smartphones. Users earn points for each item they recycle, which can be redeemed in the app for waste collection tools, children's books, or tree planting. The app is built using Kotlin for Android, Firebase for the database, and Google Cloud Maps API for location tracking.
 
 ### Problem Statement:
-The Recyclr mobile app aims to address the issue of increasing plastic waste in the environment by encouraging users to recycle plastic bottles, furniture, and paper at home. The app also aims to educate users on what can and cannot be recycled at home, promoting sustainable waste management practices.
+In Burundi, like many other underdeveloped countries, waste management is a significant problem. In addition, there is an over-importation of plastic bottles, leading to severe pollution in our lake and other natural resources. This pollution not only affects our environment but also has negative impacts on the health of our citizens. It is essential to find a solution that promotes responsible waste management practices and educates people on the importance of recycling to address these challenges. Recyclr is an innovative solution that encourages citizens to recycle by rewarding them for their efforts, making it easier and more convenient for them to dispose of their waste responsibly.
 
 ### United Nations Sustainable Development Goals:
 The Recyclr mobile app aligns with the following United Nations Sustainable Development Goals:
