@@ -1,10 +1,7 @@
 package com.gdsc.recyclr.navigation
 
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Face
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.Share
+import androidx.compose.material.icons.filled.*
 import androidx.compose.ui.graphics.vector.ImageVector
 
 /*sealed class OnBoardingPage(
@@ -63,12 +60,12 @@ sealed class BottomBarPage(
     object Scan: BottomBarPage(
         route = "scan",
         title = "Scan",
-        icon = Icons.Default.Face
+        icon = Icons.Default.PhotoCamera
     )
     object Shop: BottomBarPage(
         route = "shop",
-        title = "SHop",
-        icon = Icons.Default.Share
+        title = "Shop",
+        icon = Icons.Default.ShoppingBag
     )
     object Profile: BottomBarPage(
         route = "profile",
